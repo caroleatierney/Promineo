@@ -200,33 +200,51 @@
 
 // ======================================= Advanced Game ======================================
 
-
-// Rules of this Game:
-// The game will consist of 100 turns.
-// On an even turn(if the number of turns is even), 5 points are added to your score.
-// On an odd turn(if the number of turns is odd), you gain 3 points instead.
-// If ever your score is equal to 125, your points total will reset back down to 25 points.This will only be allowed to happen once(use the variable pointsReset to keep track of this).
-// The game will run as long as both of the following two conditions are true:
-// 1. The game has made it through 100 turns or less
-// 2. You reach 290 points or more, whichever comes first.
-// You will need to have two conditions be true in your for loop to check if the turns are less than 100 and the score is less than 290.
-
 var points = 0;
 var pointsReset = false; 
 var turnMax = 100;
 var pointsMax = 290;
 
-for (let turn = 1; turn <= turnMax; turn++) {
-    if (points === 125 && pointsReset == false) {
-        points = 25; 
-        pointsReset = true;
-    } else if (points === 290) {
-        break;
-    }
+for (let turn = 0; turn <= turnMax; turn++) {
+
     if (turn % 2 === 0) {
         points += 5;
     } else {
         points += 3;
     }
-    console.log("Points: " + points);
- }
+
+    console.log("Turns: " + turn + " Points: " + points);
+
+    if (points === 125 && pointsReset == false) {
+        points = 25;
+        pointsReset = true;
+        turn++;
+        console.log("Turns: " + turn + " Points: " + points);
+    } else if (points >= 290) {
+        break;
+    }
+
+}
+
+
+// =================================== Instructor's Solution ==================================
+
+// Instructor's Solution
+
+// var points = 0;
+// var pointsReset = false;
+// /*** DO NOT CHANGE THE CODE ABOVE THIS LINE ***/
+
+// // WRITE YOUR CODE HERE
+// for (var i = 0; i < 100 && points < 290; i++) {
+//     if (points == 125 && pointsReset === false) {
+//         points = 25;
+//         pointsReset = true;
+//     } else if (i % 2 === 0) {
+//         points = points + 5;
+//     } else {
+//         points = points + 3;
+//     }
+
+//     console.log("Turns: " + i + " Score: " + points)
+// }
