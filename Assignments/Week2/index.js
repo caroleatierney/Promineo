@@ -284,132 +284,240 @@
 
 // ============================================================================================
 
-if (num1 === num2) {
-    console.log("same")
-} else if (num1 < num2) {
-    console.log(num1);
-} else {
-    console.log(num2);
-} 
+// if (num1 === num2) {
+//     console.log("same")
+// } else if (num1 < num2) {
+//     console.log(num1);
+// } else {
+//     console.log(num2);
+// } 
 
 // ============================================================================================
 
-if (num1 < myNumber) {
-    console.log(num1 + " is smaller than my number, " + myNumber);
-} else if (num1 > myNumber) {
-    console.log(num1 + " is larger than my number, " + myNumber);
-} else {
-    console.log(num1 + " is equal to my number, " + myNumber);
-}
+// if (num1 < myNumber) {
+//     console.log(num1 + " is smaller than my number, " + myNumber);
+// } else if (num1 > myNumber) {
+//     console.log(num1 + " is larger than my number, " + myNumber);
+// } else {
+//     console.log(num1 + " is equal to my number, " + myNumber);
+// }
 
 // ============================================================================================
 
-if (num1 === num2) {
-    console.log("num1 is equal to num2")
-} else if (num1 > num2) {
-    console.log(num1);
-} else {
-    console.log(num2);
-} 
+// if (num1 === num2) {
+//     console.log("num1 is equal to num2")
+// } else if (num1 > num2) {
+//     console.log(num1);
+// } else {
+//     console.log(num2);
+// } 
 
 // ============================================================================================
 
-let num = 10;
+// let num = 10;
 
-if (num1 >= num2) {
-    if (num3 >= num4) {
-        console.log("Both statements are true.");
-    } else {
-        console.log("The first statement is true, but the second is not.");
-    }
-} 
-console.log("Program ended.");
+// if (num1 >= num2) {
+//     if (num3 >= num4) {
+//         console.log("Both statements are true.");
+//     } else {
+//         console.log("The first statement is true, but the second is not.");
+//     }
+// } 
+// console.log("Program ended.");
 
 // ============================================================================================
 
-if (numberGrade >= 0 && numberGrade <= 59) {
-    letterGrade = "F";
-} else if (numberGrade >= 60 && numberGrade <= 69) {
-    letterGrade = "D";
-} else if (numberGrade >= 70 && numberGrade <= 79) {
-    letterGrade = "C";
-} else if (numberGrade >= 80 && numberGrade <= 89) {
-    letterGrade = "B";
-} else if (numberGrade >= 90 && numberGrade <= 100) {
-    letterGrade = "A";
-}
+// if (numberGrade >= 0 && numberGrade <= 59) {
+//     letterGrade = "F";
+// } else if (numberGrade >= 60 && numberGrade <= 69) {
+//     letterGrade = "D";
+// } else if (numberGrade >= 70 && numberGrade <= 79) {
+//     letterGrade = "C";
+// } else if (numberGrade >= 80 && numberGrade <= 89) {
+//     letterGrade = "B";
+// } else if (numberGrade >= 90 && numberGrade <= 100) {
+//     letterGrade = "A";
+// }
 
-console.log(letterGrade);
+// console.log(letterGrade);
 
 // ============================================================================================
 
 // instructor solution
-if (numberGrade >= 90) {
-    letterGrade = 'A';
-} else if (numberGrade >= 80) {
-    letterGrade = 'B';
-} else if (numberGrade >= 70) {
-    letterGrade = 'C';
-} else if (numberGrade >= 60) {
-    letterGrade = 'D';
-} else {
-    letterGrade = 'F';
-}
+// if (numberGrade >= 90) {
+//     letterGrade = 'A';
+// } else if (numberGrade >= 80) {
+//     letterGrade = 'B';
+// } else if (numberGrade >= 70) {
+//     letterGrade = 'C';
+// } else if (numberGrade >= 60) {
+//     letterGrade = 'D';
+// } else {
+//     letterGrade = 'F';
+// }
 
-console.log(letterGrade);
-
-// ============================================================================================
-
-switch (numberOfDay) {
-    case 1:
-        console.log("Sunday");
-        break;
-    case 2:
-        console.log("Monday");
-        break;
-    case 3:
-        console.log("Tuesday");
-        break;
-    case 4:
-        console.log("Wednesday");
-        break;
-    case 5:
-        console.log("Thursday");
-        break;
-    case 6:
-        console.log("Friday");
-        break;
-    case 7:
-        console.log("Saturday");
-        break;
-    default:
-        console.log("The number of day is invalid.");
-}
+// console.log(letterGrade);
 
 // ============================================================================================
 
-switch(numberOfDay){
-    case 1:
-        console.log("Sunday");
-        break;
-    case 2:
-        console.log("Monday");
-        break;
-    case 3:
-        console.log("Tuesday");
-        break;
-    case 4:
-        console.log("Wednesday");
-        break;
-    case 5:
-        console.log("Thursday");
-        break;
-    case 6:
-        console.log("Friday");
-        break;
-    case 7:
-        console.log("Saturday");
-        break;
-    default:
-        console.log("The number of day is invalid.");
+// switch (numberOfDay) {
+//     case 1:
+//         console.log("Sunday");
+//         break;
+//     case 2:
+//         console.log("Monday");
+//         break;
+//     case 3:
+//         console.log("Tuesday");
+//         break;
+//     case 4:
+//         console.log("Wednesday");
+//         break;
+//     case 5:
+//         console.log("Thursday");
+//         break;
+//     case 6:
+//         console.log("Friday");
+//         break;
+//     case 7:
+//         console.log("Saturday");
+//         break;
+//     default:
+//         console.log("The number of day is invalid.");
+// }
+
+// ============================================================================================
+
+// switch(numberOfDay){
+//     case 1:
+//         console.log("Sunday");
+//         break;
+//     case 2:
+//         console.log("Monday");
+//         break;
+//     case 3:
+//         console.log("Tuesday");
+//         break;
+//     case 4:
+//         console.log("Wednesday");
+//         break;
+//     case 5:
+//         console.log("Thursday");
+//         break;
+//     case 6:
+//         console.log("Friday");
+//         break;
+//     case 7:
+//         console.log("Saturday");
+//         break;
+//     default:
+//         console.log("The number of day is invalid.");
+// }
+
+// ============================================================================================
+
+// var str1 = 'hello';
+// var str2 = 'Hello';
+// console.log(str1 === str2);
+
+// ============================================================================================
+
+// console.log(45 === "45");
+
+// ============================================================================================
+
+// var a = 2;
+// var b = 2;
+// var c = "2";
+// console.log(a == b);
+// console.log(a == c);
+// console.log(a === c);
+
+// ============================================================================================
+
+// var num1 = 3;
+// var num2 = 2;
+
+// console.log(num1 > num2);
+// console.log(num1 < num2);
+
+// ============================================================================================
+
+// var age = 23;
+// console.log(age >= 16);
+
+// var age = 12;
+// console.log(age >= 16);
+
+// var age = 16;
+// console.log(age >= 16);
+
+// ============================================================================================
+
+// var myGrade = 30;
+// var passingGrade = 70;
+// console.log(myGrade >= passingGrade)
+// console.log(myGrade >= 90)
+
+// var myGrade = 80;
+// var passingGrade = 70;
+// console.log(myGrade >= passingGrade)
+// console.log(myGrade >= 90)
+
+// var myGrade = 70;
+// var passingGrade = 70;
+// console.log(myGrade >= passingGrade)
+// console.log(myGrade >= 90)
+
+// var myGrade = 90;
+// var passingGrade = 70;
+// console.log(myGrade >= passingGrade)
+// console.log(myGrade >= 90)
+
+// ============================================================================================
+
+// var a = 10
+// var b = 54
+// var c = 21
+// var d = 23
+
+// console.log(a > b || (b > d && c > d))
+
+
+// ============================================================================================
+
+// var day = "Monday";
+// console.log(day ==="Saturday" || day === "Sunday")
+
+// ============================================================================================
+
+// var var1 = 4;
+// var var2 = 4;
+
+// console.log(var1 != var2);
+
+// ============================================================================================
+
+// var num1 = 4;
+// var num2 = 4;
+
+// if (num1 === num2) {
+//     console.log("num1 is equal to num2");
+// }
+
+// ============================================================================================
+
+var age = 16;
+var canDrive = "true";
+if (age >= 16) {
+    canDrive = true;
+    console.log(canDrive);
 }
+
+
+
+
+
+// ============================================================================================
+// ============================================================================================
+// ============================================================================================
