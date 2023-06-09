@@ -39,3 +39,15 @@ console.log(bankAccountBalance += 5);
 console.log("Hello" + "World!");
 
 console.log("Test");
+
+// numbers and strings
+// var x = 25;
+// var y = 3;
+// var z = "Z = " + (x*2);
+//  = "z=50"
+
+
+// var x = 35;
+// var y = "20";
+// var z = x + y;
+// z = "3520"
