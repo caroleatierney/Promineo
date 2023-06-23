@@ -1,3 +1,11 @@
+// Notes from weekly class
+
+// Javascript function Boolean:
+//     Boolean(0)
+//     Boolean(3.14)
+
+// Always name boolean variables with can, is, has, etc.
+
 // var loggedIn = false;
 // var maxAttempts = 3;
 // var attempts = 0;
@@ -507,17 +515,26 @@
 
 // ============================================================================================
 
-var age = 16;
-var canDrive = "true";
-if (age >= 16) {
-    canDrive = true;
-    console.log(canDrive);
-}
-
-
-
-
+// var age = 16;
+// var canDrive = "true";
+// if (age >= 16) {
+//     canDrive = true;
+//     console.log(canDrive);
+// }
 
 // ============================================================================================
+
+// for (let currentCupsOfRice = 0; currentCupsOfRice < 5; currentCupsOfRice) {
+//     console.log("The bowl contains " + ( ++currentCupsOfRice) + " cups of rice.");
+// }
+// console.log("We have enough rice!")
+let currentCupsOfRice = 0;
+let requiredCupsOfRice = 5;
+while (currentCupsOfRice != requiredCupsOfRice) {
+    console.log("The bowl contains " + (++currentCupsOfRice) + " cups of rice.");
+}
+console.log("We have enough rice!")
+
+
 // ============================================================================================
 // ============================================================================================
