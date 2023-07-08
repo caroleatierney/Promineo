@@ -5,7 +5,7 @@
 // whenever we mention expect we mean chai.inspect
 var expect = chai.expect
 
-// describe takes a name for the unit test we are setting up and a function
+// describe takes a name for the unidd t test we are setting up and a function
 describe('MyFunctions', function() {
     //  test do something function
     describe('#doSomething', function() {
